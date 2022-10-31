@@ -18,7 +18,7 @@ describe('ContactForm component', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  // Renders h1 tag "Contact Me"
+  // Renders h1 tag "Contact me"
   it('renders', () => {
     const { getByTestId } = render(<ContactForm />);
     expect(getByTestId('h1tag')).toHaveTextContent('Contact me');
